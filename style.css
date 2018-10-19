@@ -1,14 +1,16 @@
 title {display:none;}
 
-body {color:#551A8B;font-size:12pt;font-family:Candara,Arial;background-color:#66CDAA}
+body {color:#551A8B;font-size:12pt;font-family:Candara,Arial;background-color:#FFFFFF}
 
 #wrapper {margin:auto;width:40em;padding:5px}
 
-#header {height:75px;border-bottom:2px dotted #B2BCC6;text-align:center;}
+#header {height:75px;text-align:center;background-color:#CCFFFF;}
 
 #header img {height:70px;float:left;padding-right:10px}
 
 #header h2 {float:right;padding-top:20px}
+
+h1 {font-family:Bauhaus 93, Harlow Solid Italic;}
 
 h2 {font-size:16pt}
 
@@ -27,3 +29,46 @@ h3 {font-size:14pt}
 .snippet {padding-left:5px;border-left:1px solid #003399;}
 
 .myquote {font-style:italic}
+
+table, th, td {
+	border:1px solid black;
+	text-allign:center;
+}
+
+.oval {
+  height: 100px;
+  width: 200px;
+  background-color: #CCFFFF;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.oval p{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-align:center;
+  padding: 20px;
+} 
+
+.speech-bubble {
+	position: relative;
+	background: #000000;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.719em solid transparent;
+	border-top-color: #CCFFFF;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.359em;
+	margin-bottom: -0.719em;
+}
